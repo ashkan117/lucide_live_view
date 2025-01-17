@@ -52,7 +52,7 @@ defmodule Lucide.MixProject do
   defp deps do
     [
       {:ex_doc, "~> 0.22", only: :dev, runtime: false},
-      {:phoenix_live_view, ">= 0.16.0"}
+      {:phoenix_live_view, "~> 1.0"}
     ]
   end
 
